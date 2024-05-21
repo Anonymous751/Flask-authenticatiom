@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+{% block about %}
+
+<section class="about_section layout_padding long_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="img-box">
+          <img src="{{ url_for('static', filename='images/programming-1.png') }}" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="detail-box">
+          <div class="heading_container">
+            <h2>
+              Programming Paradigm
+            </h2>
+          </div>
+          <p>
+            Thought to Explore the Brain Logic and inject into machine by applying various Algoritm techniques . It achieving the best performance and we are ready to live in the Imgainary World...
+          </p>
+          <a href="">
+            Read More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+{% endblock about %}
